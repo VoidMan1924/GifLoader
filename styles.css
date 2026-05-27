@@ -1,0 +1,120 @@
+.div{
+	background-color: transparent;
+}
+p {
+	font-size: 20px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 20px;
+	background-color: transparent;
+}
+img {
+  width: 15%;
+  height: auto;
+}
+.body {
+	background-color: #6A5ACD;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	background-color: #6A5ACD;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #000000;
+	background-color: #483D8B;
+	color: #FFFFFF;
+}
+.menu {
+    display: flex;
+    gap: 15px;
+}
+.menu__item {
+    color: #000000;
+    text-decoration: none;
+}
+.main { 
+	text-align: center;
+	background-color: #6A5ACD;
+}
+.about {
+    padding: 20px;
+}
+.footer {
+    margin-top: auto;
+    padding: 20px;
+    border-top: 1px solid #000000;
+	background-color: #483D8B;
+	color: #FFFFFF;
+}
+.footered {
+	text-align: left;
+    margin-top: auto;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+.button {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #4682B4;
+	color: black;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.button:hover {
+	background-color: #B0C4DE;
+}
+.button:active {
+	transform: scale(0.80);
+}
+.label {
+	font-size: 25px;
+	background-color: transparent;
+}
+#search {
+	background-color: #ffffff;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  background-color: #483D8B;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.popup:target {
+  display: flex;
+}
+.open-btn {
+	background-color: transparent;
+	color: #FFFFFF;
+}
+.close-btn{
+	background-color: transparent;
+	color: #FFFFFF;
+}
