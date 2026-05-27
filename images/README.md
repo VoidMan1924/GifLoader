@@ -1,1 +1,1 @@
-This is necessary image
+This is necessary image. Don' delete this.
