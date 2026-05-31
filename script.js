@@ -9,8 +9,8 @@ function init() {
 			if (offsets[str] < 499){
 				offsets[str] = offsets[str] + 5;
 			}
-			if (offsets[str] > 499){
-				offsets[str] = 499;
+			if (offsets[str] > 4999){
+				offsets[str] = 4999;
 			}
 		}
 		else{
