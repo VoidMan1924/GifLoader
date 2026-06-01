@@ -6,7 +6,7 @@ function init() {
 		ev.preventDefault(); //to stop the page reload
 		let str = document.getElementById("search").value.trim();
 		if (str in offsets) {
-			if (offsets[str] < 499){
+			if (offsets[str] < 4999){
 				offsets[str] = offsets[str] + 5;
 			}
 			if (offsets[str] > 4999){
